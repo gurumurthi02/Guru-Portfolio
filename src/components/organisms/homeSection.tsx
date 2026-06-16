@@ -9,6 +9,7 @@ import {
 } from "react-icons/fa";
 
 import resume from "../../assets/Guru-mern-stack.pdf";
+import profileImage from "../../assets/Guru-Portfolio.jpeg";
 
 const HeroSection = () => {
   const handleProjectsScroll = () => {
@@ -277,7 +278,7 @@ const HeroSection = () => {
               "
             >
               <img
-                src="/Guru-Portfolio.jpeg"
+                src={profileImage}
                 alt="Gurumurthi"
                 className="h-full w-full object-cover"
               />
